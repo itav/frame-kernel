@@ -1,0 +1,20 @@
+{
+  "name": "itav/frame-kernel",
+  "authors": [
+    {
+      "name": "Sylwester Kowalski",
+      "email": "sylwester7799@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/http-foundation": "^3.0",
+    "symfony/routing": "^3.0",
+    "symfony/http-kernel": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Itav\\": "src/"
+    }
+  }
+}
